@@ -1,0 +1,89 @@
+body {
+   @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Condensed&display=swap');
+
+
+   font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Roboto Condensed', sans-serif;
+   background-color: #f1f1f1;
+   color: rgb(0, 0, 0)
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 10px;
+}
+
+.info {
+   display: flex;
+   margin: 40px 50px 50px 50px;
+
+}
+
+@media (max-width: 300px) {
+   .info {
+      display: block;
+   }
+}
+
+
+
+
+
+
+.info-text {
+   margin: 40px;
+}
+
+img {
+   height: auto;
+   width: 600px;
+   border-radius: 20px;
+   border: 1px solid;
+   box-shadow: 5px 5px 15px rgb(0, 0, 0)
+}
+
+h1,
+h2 {
+   text-align: center;
+}
+
+.bg-wood {
+   background-color: #caa472;
+   border-radius: 20px;
+   padding: 2px 25px;
+   margin-bottom: 50px;
+   border: 1px solid;
+   border-color: #887153;
+}
+
+.bg-red {
+   background-color: rgb(255, 167, 180);
+   border-radius: 20px;
+   padding: 2px 25px 7px 25px;
+   margin-bottom: 50px;
+   border: 1px solid;
+   border-color: rgb(175, 115, 124)
+}
+
+.bg-blue {
+   background-color: rgb(208, 228, 255);
+   border-radius: 20px;
+   padding: 2px 25px 30px 25px;
+   border: 1px solid;
+   border-color: rgb(132, 144, 161);
+}
+
+h1 {
+   padding-top: 10px;
+}
+
+h2 {
+   border-bottom: 1px solid;
+}
+
+.list li {
+   padding: 0 20px;
+   margin-bottom: 10px;
+   list-style: none;
+}
