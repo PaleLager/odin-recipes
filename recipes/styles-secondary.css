@@ -64,7 +64,7 @@ h2 {
 }
 
 .bg-blue {
-   background-color: rgb(208, 228, 255);
+   background-color: rgb(190, 211, 240);
    border-radius: 20px;
    padding: 2px 25px 30px 25px;
    border: 1px solid;
@@ -83,4 +83,15 @@ h2 {
    padding: 0 20px;
    margin-bottom: 10px;
    list-style: none;
+}
+
+h3 {
+   padding-top: 25px;
+   border-bottom: 1px solid;
+}
+
+.note {
+   text-align: left;
+   margin-left: 800px;
+   border-bottom: 1px solid #000;
 }
