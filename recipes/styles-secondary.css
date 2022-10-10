@@ -17,30 +17,27 @@ body {
 .info {
    display: flex;
    margin: 40px 50px 50px 50px;
-
 }
 
-@media (max-width: 300px) {
+.info-text {
+   margin: 40px;
+}
+
+@media (max-width: 1300px) {
    .info {
+      text-align: left;
       display: block;
    }
 }
 
 
 
-
-
-
-.info-text {
-   margin: 40px;
-}
-
-img {
+.image {
    height: auto;
    width: 600px;
    border-radius: 20px;
    border: 1px solid;
-   box-shadow: 5px 5px 15px rgb(0, 0, 0)
+   box-shadow: 5px 5px 15px rgb(0, 0, 0);
 }
 
 h1,
