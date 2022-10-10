@@ -16,7 +16,7 @@ body {
 
 .info {
    display: flex;
-   margin: 40px 50px 50px 50px;
+   margin: 40px 50px 10px 50px;
 }
 
 .info-text {
@@ -29,7 +29,6 @@ body {
       display: block;
    }
 }
-
 
 
 .image {
@@ -45,31 +44,17 @@ h2 {
    text-align: center;
 }
 
-.bg-wood {
-   background-color: #caa472;
+.bg-cream {
+   background-color: #FFFDD0;
    border-radius: 20px;
    padding: 2px 25px;
-   margin-bottom: 50px;
+   margin-bottom: 70px;
    border: 1px solid;
-   border-color: #887153;
+   border-color: #e2e0b8;
 }
 
-.bg-red {
-   background-color: rgb(255, 167, 180);
-   border-radius: 20px;
-   padding: 2px 25px 7px 25px;
-   margin-bottom: 50px;
-   border: 1px solid;
-   border-color: rgb(175, 115, 124)
-}
+.bg-transp {}
 
-.bg-blue {
-   background-color: rgb(190, 211, 240);
-   border-radius: 20px;
-   padding: 2px 25px 30px 25px;
-   border: 1px solid;
-   border-color: rgb(132, 144, 161);
-}
 
 h1 {
    padding-top: 10px;
@@ -91,7 +76,10 @@ h3 {
 }
 
 .note {
+   min-width: 330px;
    text-align: left;
-   margin-left: 800px;
+   margin-left: 47px;
+   margin-right: 800px;
+   margin-bottom: 60px;
    border-bottom: 1px solid #000;
 }
