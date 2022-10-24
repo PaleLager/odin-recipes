@@ -118,3 +118,21 @@ button {
 button:hover {
    opacity: 0.75;
 }
+
+.background-container {
+   display: flex;
+
+}
+
+.flag-green {
+   background-color: #008C45;
+   width: 300px;
+}
+
+.flag-white {
+   background-color: #F4F9FF;
+}
+
+.flag-red {
+   background-color: #CD212A;
+}
